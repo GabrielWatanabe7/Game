@@ -8,17 +8,22 @@ class Parallax:
 
         self.layers = [
             {
-                "image": pygame.image.load("assets/Plan 2.png"),
+                "image": pygame.image.load("assets/1.png"),
                 "speed": 0
             },
             {
-                "image": pygame.image.load("assets/Plan 1.png"),
+                "image": pygame.image.load("assets/2.png"),
                 "speed": 1
             },
             {
-                "image": pygame.image.load("assets/Plan 3.png"),
+                "image": pygame.image.load("assets/3.png"),
                 "speed": 3
-            }
+            },
+            {
+                "image": pygame.image.load("assets/4.png"),
+                "speed": 3
+            },
+
         ]
 
         for layer in self.layers:

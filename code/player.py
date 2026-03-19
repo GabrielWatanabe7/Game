@@ -1,7 +1,7 @@
 import pygame
 from consty import *
 
-GROUND_Y = HEIGHT - 40
+GROUND_Y = HEIGHT - 20
 
 class Player(pygame.sprite.Sprite):
 

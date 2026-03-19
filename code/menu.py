@@ -9,7 +9,7 @@ def menu(screen):
     font_title = pygame.font.SysFont("Arial",60)
     font_text = pygame.font.SysFont("Arial",30)
 
-    menu_bg = pygame.image.load("assets/background_03.jpg")
+    menu_bg = pygame.image.load("assets/Plan1.png")
     menu_bg = pygame.transform.scale(menu_bg,(WIDTH,HEIGHT))
 
     while True:
@@ -20,7 +20,7 @@ def menu(screen):
         play = font_text.render("Press ENTER to start",True,(255,255,0))
 
         controls1 = font_text.render("A / D - Move",True,(255,255,255))
-        controls2 = font_text.render("SPACE - Fly",True,(255,255,255))
+        controls2 = font_text.render("SPACE - Jump",True,(255,255,255))
 
         title_rect = title.get_rect(center=(WIDTH/2,150))
         play_rect = play.get_rect(center=(WIDTH/2,350))
