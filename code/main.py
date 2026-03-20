@@ -34,7 +34,7 @@ obstacleGroup = pygame.sprite.Group()
 coinGroup = pygame.sprite.Group()
 
 score = 0
-font = pygame.font.SysFont("Arial", 30)
+font = pygame.font.SysFont("Lucida Sans Typewriter", 30)
 
 running = True
 
