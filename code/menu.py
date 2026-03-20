@@ -9,14 +9,14 @@ def menu(screen):
     font_title = pygame.font.SysFont("Arial",60)
     font_text = pygame.font.SysFont("Arial",30)
 
-    menu_bg = pygame.image.load("assets/Plan1.png")
+    menu_bg = pygame.image.load("assets/pre.png")
     menu_bg = pygame.transform.scale(menu_bg,(WIDTH,HEIGHT))
 
     while True:
 
         screen.blit(menu_bg,(0,0))
 
-        title = font_title.render("RUNNER GAME",True,(255,255,255))
+        title = font_title.render("Coin Rush",True,(255,255,255))
         play = font_text.render("Press ENTER to start",True,(255,255,0))
 
         controls1 = font_text.render("A / D - Move",True,(255,255,255))
